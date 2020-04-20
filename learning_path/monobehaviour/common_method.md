@@ -2,7 +2,7 @@
 
 ## 不可重写函数
 
-* Invoke
+* #### **Invoke**
 
 funcation Invoke\(methodName: string, time: float\): void
 
@@ -11,17 +11,19 @@ funcation Invoke\(methodName: string, time: float\): void
 ```C\#
 public class example : MonoBehaviour {
     public Rigidbody projectile;
-    
+
     void LaunchProjectile() {
         Rigidbody instance = Instantiate(projectile);
         instance.velocity = Random.insideUnitSphere * 5;
     }
-    
+
     public void Awake() {
         Invoke("LaunchProjectile", 2);
     }
 }
 ```
+
+
 
 
 
