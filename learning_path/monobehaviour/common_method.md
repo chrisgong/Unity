@@ -29,5 +29,9 @@ function InvokeRepeating \(methodName : string, time : float, repeatRate : float
 
 从第一次调用开始,每隔repeatRate时间调用一次.
 
+* #### CancelInvoke
 
+function CancelInvoke \(\) : void
+
+取消这个MonoBehaviour上的所有调用Invoke。
 
