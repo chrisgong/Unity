@@ -77,3 +77,7 @@ C\#和Boo用户注意：Awake 不同于构造函数，物体被构造时并没�
 
 Start在behaviour的生命周期中只被调用一次。它和 Awake 的不同是，Start 只在脚本实例被启用时调用。你可以按需调整延迟初始化代码。Awake 总是在Start之前执行。
 
+* #### OnMouseEnter ／OnMouseOver ／ OnMouseExit ／ OnMouseDown ／ OnMouseUp ／ OnMouseDrag
+
+当鼠标进入 ／ 悬浮 ／ 移出 ／ 点击 ／ 释放 ／ 拖拽GUIElement\(GUI元素\)或Collider\(碰撞体\)中时调用OnMouseEnter。
+
