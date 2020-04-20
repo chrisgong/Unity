@@ -11,7 +11,5 @@
 7. 学写Shader
 8. 基本的D3D / OpenGL知识
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge098uuixej30fr0lc0ts.jpg)
-
 
 
