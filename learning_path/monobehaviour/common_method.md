@@ -51,5 +51,13 @@ function StartCoroutine \(routine : IEnumerator\) : Coroutine
 
 * #### StopCoroutine / StopAllCoroutines
 
+#### 
+
+## 可重写函数：
+
+* Update
+
+当 MonoBehaviour 实例化完成之后，Update 在每一帧被调用。
+
 
 
