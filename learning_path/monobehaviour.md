@@ -6,7 +6,7 @@
   * 可以把一些需要依赖 Awake 的变量放在 Start 中初始化。
 * Update：当开始播放游戏帧时（此时 GameObject 实例化完毕）， Update 在每一帧被调用。
 * LateUpdate：在所有 Update 函数后被调用。
-* FixedUpdate：当 MonoBehaviour 启用时，其 FixedUpdate 在每一固定帧被调用。
+* FixedUpdate：当 MonoBehaviour 启用时，其 FixedUpdate 在`每一固定帧`被调用。
 
 
 
