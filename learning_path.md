@@ -1,3 +1,5 @@
+## 学习路径
+
 1. 先知道MonoBehaviour是什么, 已经几个常用方法的执行顺序
 2. 了解怎么写C\#/JS脚本, 且掌握几个常见的设计模式: 如Singleton, Adapter, Factory; 熟悉GameObject类的API
 3. 熟练使用NGUI\(Or UGUI\)的组件, 了解纹理 / 材质是什么
