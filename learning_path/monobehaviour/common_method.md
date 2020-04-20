@@ -85,5 +85,9 @@ Start在behaviour的生命周期中只被调用一次。它和 Awake 的不同�
 
 当Collider\(碰撞体\)进入 ／ 退出 ／ 停留在 trigger\(触发器\)时调用OnTriggerEnter。OnTriggerStay 将会在每一帧被调用。
 
+* #### OnCollisionEnter ／ OnCollisionExit ／ OnCollisionStay
+
+当此collider/rigidbody触发另一个rigidbody/collider时，被调用。OnCollisionStay 将会在每一帧被调用。
+
 
 
