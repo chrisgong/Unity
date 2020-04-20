@@ -35,3 +35,9 @@ function CancelInvoke \(\) : void
 
 取消这个MonoBehaviour上的所有调用Invoke。
 
+* #### IsInvoking
+
+function IsInvoking \(methodName : string\) : bool
+
+判断某指定函数是否在等候调用。
+
