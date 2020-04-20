@@ -23,7 +23,11 @@ public class example : MonoBehaviour {
 }
 ```
 
+* #### InvokeRepeating
 
+function InvokeRepeating \(methodName : string, time : float, repeatRate : float\) : void
+
+从第一次调用开始,每隔repeatRate时间调用一次.
 
 
 
