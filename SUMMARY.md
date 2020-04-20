@@ -1,6 +1,6 @@
 # Unity 学习笔记
 
-* [First Chapter](chapter1.md)
+* \[学习要点\]\(README.md\)
 
 
 
