@@ -47,5 +47,5 @@ function StartCoroutine \(routine : IEnumerator\) : Coroutine
 
 开启一个协程程序
 
-一个协程程序在执行过程中,可以在任意位置使用 yield 语句。yield 的返回值控制何时恢复协同程序向下执行。协同程序在对象自有帧执行过程中堪称优秀。协同程序在性能上没有更多的开销。StartCoroutine函数是立刻返回的, 但是yield可以延迟结果。直到协同程序执行完毕。
+一个协程的执行可以在任何地方用yield语句来暂停，yield return的值决定了什么时候协程恢复执行。协程在协调在几帧中执行的操作时有极大的用处.协程几乎没有任何性能开销。
 
