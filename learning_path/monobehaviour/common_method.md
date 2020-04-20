@@ -59,5 +59,13 @@ function StartCoroutine \(routine : IEnumerator\) : Coroutine
 
 当 MonoBehaviour 实例化完成之后，Update 在每一帧被调用。
 
+* LateUpdate
+
+LateUpdate 是在所有 Update 函数调用后被调用。这可用于调整脚本执行顺序。例如:当物体在Update里移动时，跟随物体的相机可以在LateUpdate里实现。
+
+* FixedUpdate
+
+处理 Rigidbody 时，需要用FixedUpdate代替Update。例如:给刚体加一个作用力时，你必须应用作用力在FixedUpdate里的固定帧，而不是Update中的帧。\(两者帧长不同\)
+
 
 
