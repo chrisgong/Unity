@@ -11,5 +11,5 @@
 * OnDisable：当对象变为不可用或非激活状态时此函数被调用。
 * OnDestroy：当 MonoBehavior 将被销毁时，这个函数被调用。
 
-
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1ge098uuixej30fr0lc0ts.jpg)
 
