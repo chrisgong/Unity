@@ -81,3 +81,9 @@ Start在behaviour的生命周期中只被调用一次。它和 Awake 的不同�
 
 当鼠标进入 ／ 悬浮 ／ 移出 ／ 点击 ／ 释放 ／ 拖拽GUIElement\(GUI元素\)或Collider\(碰撞体\)中时调用OnMouseEnter。
 
+* #### OnTriggerEnter ／ OnTriggerExit ／ OnTriggerStay
+
+当Collider\(碰撞体\)进入 ／ 退出 ／ 停留在 trigger\(触发器\)时调用OnTriggerEnter。OnTriggerStay 将会在每一帧被调用。
+
+
+
