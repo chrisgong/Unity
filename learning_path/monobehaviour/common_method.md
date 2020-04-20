@@ -45,5 +45,7 @@ function IsInvoking \(methodName : string\) : bool
 
 function StartCoroutine \(routine : IEnumerator\) : Coroutine
 
-一个协同程序在执行过程中,可以在任意位置使用 yield 语句。yield 的返回值控制何时恢复协同程序向下执行。协同程序在对象自有帧执行过程中堪称优秀。协同程序在性能上没有更多的开销。StartCoroutine函数是立刻返回的,但是yield可以延迟结果。直到协同程序执行完毕。
+开启一个协程
+
+一个携程程序在执行过程中,可以在任意位置使用 yield 语句。yield 的返回值控制何时恢复协同程序向下执行。协同程序在对象自有帧执行过程中堪称优秀。协同程序在性能上没有更多的开销。StartCoroutine函数是立刻返回的, 但是yield可以延迟结果。直到协同程序执行完毕。
 
