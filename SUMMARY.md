@@ -4,7 +4,3 @@
 
 
 
-\[qwdkp\]\(http://www.baidu.com\)
-
-
-
