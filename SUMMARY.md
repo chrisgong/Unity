@@ -1,5 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [学习要点](xue-xi-yao-dian.md)
+* [学习要点](/learning_path.md)
+
+
 
