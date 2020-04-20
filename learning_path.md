@@ -1,4 +1,4 @@
-## 学习路径
+## 基础学习
 
 1. 了解MonoBehaviour是什么, 以及几个常用方法的执行顺序
 2. 了解怎么写C\#/JS脚本, 且掌握几个常见的设计模式: 如Singleton, Adapter, Factory; 熟悉GameObject类的API
